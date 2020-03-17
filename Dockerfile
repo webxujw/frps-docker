@@ -4,7 +4,7 @@ RUN apk add --update tzdata
 ENV TZ=Asia/Shanghai
 
 # frps的版本
-ENV FRP_VERSION 0.31.2
+ENV FRP_VERSION 0.32.0
 
 RUN wget https://github.com/fatedier/frp/releases/download/v${FRP_VERSION}/frp_${FRP_VERSION}_linux_amd64.tar.gz 
 RUN tar -xf frp_${FRP_VERSION}_linux_amd64.tar.gz 
